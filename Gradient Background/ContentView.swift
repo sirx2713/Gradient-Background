@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            MeshGradient(width: 3, height: 3, points:[
+                [0.0, 0.0], [0.5, 0.0], [1.0, 0.0],
+                [0.5, 1.0], [0.7, 0.5], [1.0, 0.7],
+                [0.0, 1.0], [0.0, 0.5], [0.0, 0.5]
+            ],
+                         colors:[
+                            .teal, .purple, .indigo, .purple, .blue, .pink,.purple, .red, .purple]
+            )
+            .ignoresSafeArea()
+            .shadow(color: .gray, radius: 25, x: -10, y: 10)
+            Text("Idea From: Enid Hadaj")
         }
-        .padding()
     }
 }
 
