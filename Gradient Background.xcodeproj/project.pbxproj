@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED10FB62C1A1E8B0080CDA7 /* Gradient_BackgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED10FB52C1A1E8B0080CDA7 /* Gradient_BackgroundApp.swift */; };
+		9ED10FB82C1A1E8B0080CDA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED10FB72C1A1E8B0080CDA7 /* ContentView.swift */; };
+		9ED10FBA2C1A1E8D0080CDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED10FB92C1A1E8D0080CDA7 /* Assets.xcassets */; };
+		9ED10FBD2C1A1E8D0080CDA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED10FBC2C1A1E8D0080CDA7 /* Preview Assets.xcassets */; };
+		9ED10FC72C1A1E8D0080CDA7 /* Gradient_BackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED10FC62C1A1E8D0080CDA7 /* Gradient_BackgroundTests.swift */; };
+		9ED10FD12C1A1E8D0080CDA7 /* Gradient_BackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED10FD02C1A1E8D0080CDA7 /* Gradient_BackgroundUITests.swift */; };
+		9ED10FD32C1A1E8D0080CDA7 /* Gradient_BackgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED10FD22C1A1E8D0080CDA7 /* Gradient_BackgroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ED10FC32C1A1E8D0080CDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED10FAA2C1A1E8B0080CDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED10FB12C1A1E8B0080CDA7;
+			remoteInfo = "Gradient Background";
+		};
+		9ED10FCD2C1A1E8D0080CDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED10FAA2C1A1E8B0080CDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED10FB12C1A1E8B0080CDA7;
+			remoteInfo = "Gradient Background";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ED10FB22C1A1E8B0080CDA7 /* Gradient Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gradient Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED10FB52C1A1E8B0080CDA7 /* Gradient_BackgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient_BackgroundApp.swift; sourceTree = "<group>"; };
+		9ED10FB72C1A1E8B0080CDA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9ED10FB92C1A1E8D0080CDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED10FBC2C1A1E8D0080CDA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9ED10FC22C1A1E8D0080CDA7 /* Gradient BackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gradient BackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED10FC62C1A1E8D0080CDA7 /* Gradient_BackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient_BackgroundTests.swift; sourceTree = "<group>"; };
+		9ED10FCC2C1A1E8D0080CDA7 /* Gradient BackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gradient BackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED10FD02C1A1E8D0080CDA7 /* Gradient_BackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient_BackgroundUITests.swift; sourceTree = "<group>"; };
+		9ED10FD22C1A1E8D0080CDA7 /* Gradient_BackgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient_BackgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED10FAF2C1A1E8B0080CDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FBF2C1A1E8D0080CDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FC92C1A1E8D0080CDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED10FA92C1A1E8B0080CDA7 = {
+			isa = PBXGroup;
+			children = (
+				9ED10FB42C1A1E8B0080CDA7 /* Gradient Background */,
+				9ED10FC52C1A1E8D0080CDA7 /* Gradient BackgroundTests */,
+				9ED10FCF2C1A1E8D0080CDA7 /* Gradient BackgroundUITests */,
+				9ED10FB32C1A1E8B0080CDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED10FB32C1A1E8B0080CDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED10FB22C1A1E8B0080CDA7 /* Gradient Background.app */,
+				9ED10FC22C1A1E8D0080CDA7 /* Gradient BackgroundTests.xctest */,
+				9ED10FCC2C1A1E8D0080CDA7 /* Gradient BackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED10FB42C1A1E8B0080CDA7 /* Gradient Background */ = {
+			isa = PBXGroup;
+			children = (
+				9ED10FB52C1A1E8B0080CDA7 /* Gradient_BackgroundApp.swift */,
+				9ED10FB72C1A1E8B0080CDA7 /* ContentView.swift */,
+				9ED10FB92C1A1E8D0080CDA7 /* Assets.xcassets */,
+				9ED10FBB2C1A1E8D0080CDA7 /* Preview Content */,
+			);
+			path = "Gradient Background";
+			sourceTree = "<group>";
+		};
+		9ED10FBB2C1A1E8D0080CDA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9ED10FBC2C1A1E8D0080CDA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ED10FC52C1A1E8D0080CDA7 /* Gradient BackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED10FC62C1A1E8D0080CDA7 /* Gradient_BackgroundTests.swift */,
+			);
+			path = "Gradient BackgroundTests";
+			sourceTree = "<group>";
+		};
+		9ED10FCF2C1A1E8D0080CDA7 /* Gradient BackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED10FD02C1A1E8D0080CDA7 /* Gradient_BackgroundUITests.swift */,
+				9ED10FD22C1A1E8D0080CDA7 /* Gradient_BackgroundUITestsLaunchTests.swift */,
+			);
+			path = "Gradient BackgroundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED10FB12C1A1E8B0080CDA7 /* Gradient Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED10FD62C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient Background" */;
+			buildPhases = (
+				9ED10FAE2C1A1E8B0080CDA7 /* Sources */,
+				9ED10FAF2C1A1E8B0080CDA7 /* Frameworks */,
+				9ED10FB02C1A1E8B0080CDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gradient Background";
+			productName = "Gradient Background";
+			productReference = 9ED10FB22C1A1E8B0080CDA7 /* Gradient Background.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ED10FC12C1A1E8D0080CDA7 /* Gradient BackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED10FD92C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient BackgroundTests" */;
+			buildPhases = (
+				9ED10FBE2C1A1E8D0080CDA7 /* Sources */,
+				9ED10FBF2C1A1E8D0080CDA7 /* Frameworks */,
+				9ED10FC02C1A1E8D0080CDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED10FC42C1A1E8D0080CDA7 /* PBXTargetDependency */,
+			);
+			name = "Gradient BackgroundTests";
+			productName = "Gradient BackgroundTests";
+			productReference = 9ED10FC22C1A1E8D0080CDA7 /* Gradient BackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ED10FCB2C1A1E8D0080CDA7 /* Gradient BackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED10FDC2C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient BackgroundUITests" */;
+			buildPhases = (
+				9ED10FC82C1A1E8D0080CDA7 /* Sources */,
+				9ED10FC92C1A1E8D0080CDA7 /* Frameworks */,
+				9ED10FCA2C1A1E8D0080CDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED10FCE2C1A1E8D0080CDA7 /* PBXTargetDependency */,
+			);
+			name = "Gradient BackgroundUITests";
+			productName = "Gradient BackgroundUITests";
+			productReference = 9ED10FCC2C1A1E8D0080CDA7 /* Gradient BackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED10FAA2C1A1E8B0080CDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9ED10FB12C1A1E8B0080CDA7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9ED10FC12C1A1E8D0080CDA7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9ED10FB12C1A1E8B0080CDA7;
+					};
+					9ED10FCB2C1A1E8D0080CDA7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9ED10FB12C1A1E8B0080CDA7;
+					};
+				};
+			};
+			buildConfigurationList = 9ED10FAD2C1A1E8B0080CDA7 /* Build configuration list for PBXProject "Gradient Background" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED10FA92C1A1E8B0080CDA7;
+			productRefGroup = 9ED10FB32C1A1E8B0080CDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED10FB12C1A1E8B0080CDA7 /* Gradient Background */,
+				9ED10FC12C1A1E8D0080CDA7 /* Gradient BackgroundTests */,
+				9ED10FCB2C1A1E8D0080CDA7 /* Gradient BackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED10FB02C1A1E8B0080CDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED10FBD2C1A1E8D0080CDA7 /* Preview Assets.xcassets in Resources */,
+				9ED10FBA2C1A1E8D0080CDA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FC02C1A1E8D0080CDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FCA2C1A1E8D0080CDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED10FAE2C1A1E8B0080CDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED10FB82C1A1E8B0080CDA7 /* ContentView.swift in Sources */,
+				9ED10FB62C1A1E8B0080CDA7 /* Gradient_BackgroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FBE2C1A1E8D0080CDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED10FC72C1A1E8D0080CDA7 /* Gradient_BackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10FC82C1A1E8D0080CDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED10FD32C1A1E8D0080CDA7 /* Gradient_BackgroundUITestsLaunchTests.swift in Sources */,
+				9ED10FD12C1A1E8D0080CDA7 /* Gradient_BackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ED10FC42C1A1E8D0080CDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED10FB12C1A1E8B0080CDA7 /* Gradient Background */;
+			targetProxy = 9ED10FC32C1A1E8D0080CDA7 /* PBXContainerItemProxy */;
+		};
+		9ED10FCE2C1A1E8D0080CDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED10FB12C1A1E8B0080CDA7 /* Gradient Background */;
+			targetProxy = 9ED10FCD2C1A1E8D0080CDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9ED10FD42C1A1E8D0080CDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ED10FD52C1A1E8D0080CDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED10FD72C1A1E8D0080CDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gradient Background/Preview Content\"";
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-Background";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ED10FD82C1A1E8D0080CDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gradient Background/Preview Content\"";
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-Background";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ED10FDA2C1A1E8D0080CDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-BackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradient Background.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gradient Background";
+			};
+			name = Debug;
+		};
+		9ED10FDB2C1A1E8D0080CDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-BackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradient Background.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gradient Background";
+			};
+			name = Release;
+		};
+		9ED10FDD2C1A1E8D0080CDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-BackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gradient Background";
+			};
+			name = Debug;
+		};
+		9ED10FDE2C1A1E8D0080CDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "isad.com.Gradient-BackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gradient Background";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED10FAD2C1A1E8B0080CDA7 /* Build configuration list for PBXProject "Gradient Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED10FD42C1A1E8D0080CDA7 /* Debug */,
+				9ED10FD52C1A1E8D0080CDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED10FD62C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED10FD72C1A1E8D0080CDA7 /* Debug */,
+				9ED10FD82C1A1E8D0080CDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED10FD92C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient BackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED10FDA2C1A1E8D0080CDA7 /* Debug */,
+				9ED10FDB2C1A1E8D0080CDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED10FDC2C1A1E8D0080CDA7 /* Build configuration list for PBXNativeTarget "Gradient BackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED10FDD2C1A1E8D0080CDA7 /* Debug */,
+				9ED10FDE2C1A1E8D0080CDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ED10FAA2C1A1E8B0080CDA7 /* Project object */;
+}
